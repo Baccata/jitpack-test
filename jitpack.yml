@@ -7,3 +7,4 @@ install:
   - echo $GROUP
   - echo $ARTIFACT
   - echo $VERSION
+  - sbt -Dsbt.log.noformat=true clean publishM2

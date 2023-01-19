@@ -7,4 +7,5 @@ install:
   - echo $GROUP
   - echo $ARTIFACT
   - echo $VERSION
-  - sbt -Dsbt.log.noformat=true clean $ARTIFACT/publishM2
+  - printenv
+  #- sbt -Dsbt.log.noformat=true clean $ARTIFACT/publishM2

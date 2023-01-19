@@ -1,0 +1,9 @@
+jdk:
+  - temurin17
+before_install:
+  - echo "Before install"
+install:
+  - echo "Running a custom install command"
+  - echo $GROUP
+  - echo $ARTIFACT
+  - echo $VERSION
